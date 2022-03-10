@@ -5,4 +5,4 @@ $db_name = 'angofreela'; //Should contain the "Database Name" value
 $db_user = 'root'; //Should contain the "Database User" value
 $db_pass = ''; //Should contain the "Database Password" value
 
-$conexao= new MySQLi($db_host, $db_user, $db_pass, $db_name);
+$mysqli_connection = new MySQLi($db_host, $db_user, $db_pass, $db_name);
